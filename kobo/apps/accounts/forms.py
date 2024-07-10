@@ -101,10 +101,6 @@ class KoboSignupMixin(forms.Form):
         required=False,
         choices=(('', ''),) + COUNTRIES,
     )
-    newsletter_subscription = forms.BooleanField(
-        label=USER_METADATA_DEFAULT_LABELS['newsletter_subscription'],
-        required=False,
-    )
     terms_of_service = forms.BooleanField(
         # Label is dynamic; see constructor
         required=True,
