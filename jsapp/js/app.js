@@ -85,7 +85,7 @@ class App extends React.Component {
     }
 
     return (
-      <DocumentTitle title='KoboToolbox'>
+      <DocumentTitle title='Data 123'>
         <React.Fragment>
           <RootContextProvider>
             <Tracking />

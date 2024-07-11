@@ -30,7 +30,7 @@ const ChangePasswordRoute = class ChangePassword extends React.Component<WithRou
     const initialsStyle = {background: `#${stringToColor(accountName)}`};
 
     return (
-      <DocumentTitle title={`${accountName} | KoboToolbox`}>
+      <DocumentTitle title={`${accountName} | Data 123`}>
         <bem.AccountSettings>
           <bem.AccountSettings__actions>
             <button

@@ -17,7 +17,7 @@ interface BasicLayoutProps {
  */
 export default function BasicLayout(props: BasicLayoutProps) {
   return (
-    <DocumentTitle title='KoboToolbox'>
+    <DocumentTitle title='Data 123'>
       <>
         <Tracking />
         <ToasterConfig />

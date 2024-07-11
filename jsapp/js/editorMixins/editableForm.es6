@@ -922,14 +922,14 @@ export default Object.assign({
 
     if (!this.state.isNewAsset && !this.state.asset) {
       return (
-        <DocumentTitle title={`${docTitle} | KoboToolbox`}>
+        <DocumentTitle title={`${docTitle} | Data 123`}>
           <LoadingSpinner/>
         </DocumentTitle>
       );
     }
 
     return (
-      <DocumentTitle title={`${docTitle} | KoboToolbox`}>
+      <DocumentTitle title={`${docTitle} | Data 123`}>
         <>
         {
           /*
