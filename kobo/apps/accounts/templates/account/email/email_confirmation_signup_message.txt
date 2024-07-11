@@ -7,9 +7,9 @@
 {% if content.section_one or content.section_one == '' %}
 {% convert_placeholders content.section_one activate_url user %}
 {% else %}
-{% blocktrans %}Thanks for signing up with KoboToolbox!{% endblocktrans %}
+{% blocktrans %}Thanks for signing up with Data123!{% endblocktrans %}
 
-{% blocktrans %}Confirming your account will give you access to KoboToolbox applications. Please visit the following URL to finish activation of your new account.{% endblocktrans %}
+{% blocktrans %}Confirming your account will give you access to our 360° data collection solution. Please visit the following URL to finish activation of your new account.{% endblocktrans %}
 
 {{ activate_url }}
 
@@ -19,15 +19,14 @@
 {% endspaceless %}
 
 {% spaceless %}
+
+{% blocktrans %}For help getting started, reach out to our support team via email at support@data123.online or contact one of our specialist at +267 396 0329 {% endblocktrans %} 
 {% if content.section_two or content.section_two == '' %}
 {% convert_placeholders content.section_two activate_url user %}
 {% else %}
-{% blocktrans %}For help getting started, check out the KoboToolbox user documentation: https://support.kobotoolbox.com {% endblocktrans %}
 
-{% blocktrans %}You can also join the KoboToolbox community forum to ask questions, share solutions, and chat with thousands of users: https://community.kobotoolbox.org{% endblocktrans %}
-
-{% blocktrans %}Best,{% endblocktrans %}
-KoboToolbox
+{% blocktrans %}Regards,{% endblocktrans %}
+Data 123 Team
 {% endif %}
 {% endspaceless %}
 {% endwith %}

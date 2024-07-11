@@ -1,6 +1,6 @@
 {% load i18n %}
 {% load url_creation %}
-{% blocktrans %}To confirm the new email address associated with your KoboToolbox account, please follow the link below.{% endblocktrans %}
+{% blocktrans %}To confirm the new email address associated with your Data 123 account, please follow the link below.{% endblocktrans %}
 
 {{ activate_url }}
 
